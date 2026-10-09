@@ -1,0 +1,91 @@
+scenario,policy,metric,mean,p90
+Reference,FIFO,p95,114.5,114.5
+Reference,FIFO,mean_backlog,15985.401639344262,15985.401639344262
+Reference,FIFO,long_wait_share,0.224956580333501,0.224956580333501
+Reference,FIFO,disparity_cv,0.821074944685401,0.821074944685401
+Reference,FIFO,final_backlog,29996.0,29996.0
+Reference,Representative,p95,101.0,101.0
+Reference,Representative,mean_backlog,15985.401639344262,15985.401639344262
+Reference,Representative,long_wait_share,0.20327047367771695,0.20327047367771695
+Reference,Representative,disparity_cv,0.8561447324205947,0.8561447324205947
+Reference,Representative,final_backlog,29996.0,29996.0
+Demand +10%,FIFO,p95,128.0,128.0
+Demand +10%,FIFO,mean_backlog,20154.409836065573,20154.409836065573
+Demand +10%,FIFO,long_wait_share,0.25777367476532304,0.25777367476532304
+Demand +10%,FIFO,disparity_cv,0.7296068242812401,0.7296068242812401
+Demand +10%,FIFO,final_backlog,38794.0,38794.0
+Demand +10%,Representative,p95,114.0,114.0
+Demand +10%,Representative,mean_backlog,20154.409836065573,20154.409836065573
+Demand +10%,Representative,long_wait_share,0.247368511871894,0.247368511871894
+Demand +10%,Representative,disparity_cv,0.7685216044703094,0.7685216044703094
+Demand +10%,Representative,final_backlog,38794.0,38794.0
+Demand +20%,FIFO,p95,140.0,140.0
+Demand +20%,FIFO,mean_backlog,25030.021857923497,25030.021857923497
+Demand +20%,FIFO,long_wait_share,0.2846488453021196,0.2846488453021196
+Demand +20%,FIFO,disparity_cv,0.6471083708284715,0.6471083708284715
+Demand +20%,FIFO,final_backlog,48606.0,48606.0
+Demand +20%,Representative,p95,127.0,127.0
+Demand +20%,Representative,mean_backlog,25030.021857923497,25030.021857923497
+Demand +20%,Representative,long_wait_share,0.28130338500474533,0.28130338500474533
+Demand +20%,Representative,disparity_cv,0.7181578497915565,0.7181578497915565
+Demand +20%,Representative,final_backlog,48606.0,48606.0
+Demand +30%,FIFO,p95,150.0,150.0
+Demand +30%,FIFO,mean_backlog,29953.43442622951,29953.43442622951
+Demand +30%,FIFO,long_wait_share,0.3081466231557123,0.3081466231557123
+Demand +30%,FIFO,disparity_cv,0.5868102680799163,0.5868102680799163
+Demand +30%,FIFO,final_backlog,58711.0,58711.0
+Demand +30%,Representative,p95,137.0,137.0
+Demand +30%,Representative,mean_backlog,29953.43442622951,29953.43442622951
+Demand +30%,Representative,long_wait_share,0.30650401162238916,0.30650401162238916
+Demand +30%,Representative,disparity_cv,0.7153494590606558,0.7153494590606558
+Demand +30%,Representative,final_backlog,58711.0,58711.0
+Capacity -10%,FIFO,p95,130.0,130.0
+Capacity -10%,FIFO,mean_backlog,18491.158469945356,18491.158469945356
+Capacity -10%,FIFO,long_wait_share,0.25685461292435013,0.25685461292435013
+Capacity -10%,FIFO,disparity_cv,0.7288050384613574,0.7288050384613574
+Capacity -10%,FIFO,final_backlog,35563.0,35563.0
+Capacity -10%,Representative,p95,116.0,116.0
+Capacity -10%,Representative,mean_backlog,18491.158469945356,18491.158469945356
+Capacity -10%,Representative,long_wait_share,0.2473734660757163,0.2473734660757163
+Capacity -10%,Representative,disparity_cv,0.7632084986487951,0.7632084986487951
+Capacity -10%,Representative,final_backlog,35563.0,35563.0
+Capacity -20%,FIFO,p95,144.0,144.0
+Capacity -20%,FIFO,mean_backlog,21817.868852459018,21817.868852459018
+Capacity -20%,FIFO,long_wait_share,0.2953486385680526,0.2953486385680526
+Capacity -20%,FIFO,disparity_cv,0.6290137669957155,0.6290137669957155
+Capacity -20%,FIFO,final_backlog,42532.0,42532.0
+Capacity -20%,Representative,p95,131.0,131.0
+Capacity -20%,Representative,mean_backlog,21817.868852459018,21817.868852459018
+Capacity -20%,Representative,long_wait_share,0.2875758064669204,0.2875758064669204
+Capacity -20%,Representative,disparity_cv,0.7381016862787904,0.7381016862787904
+Capacity -20%,Representative,final_backlog,42532.0,42532.0
+Capacity -30%,FIFO,p95,162.0,162.0
+Capacity -30%,FIFO,mean_backlog,25354.01912568306,25354.01912568306
+Capacity -30%,FIFO,long_wait_share,0.36608235975210457,0.36608235975210457
+Capacity -30%,FIFO,disparity_cv,0.5275939508757829,0.5275939508757829
+Capacity -30%,FIFO,final_backlog,50155.0,50155.0
+Capacity -30%,Representative,p95,150.0,150.0
+Capacity -30%,Representative,mean_backlog,25354.01912568306,25354.01912568306
+Capacity -30%,Representative,long_wait_share,0.34047661981455296,0.34047661981455296
+Capacity -30%,Representative,disparity_cv,0.6920945165044029,0.6920945165044029
+Capacity -30%,Representative,final_backlog,50155.0,50155.0
+Combined moderate,FIFO,p95,153.0,153.0
+Combined moderate,FIFO,mean_backlog,28316.398907103827,28316.398907103827
+Combined moderate,FIFO,long_wait_share,0.31360329009807025,0.31360329009807025
+Combined moderate,FIFO,disparity_cv,0.580448173293521,0.580448173293521
+Combined moderate,FIFO,final_backlog,55636.0,55636.0
+Combined moderate,Representative,p95,143.0,143.0
+Combined moderate,Representative,mean_backlog,28316.398907103827,28316.398907103827
+Combined moderate,Representative,long_wait_share,0.31611831698829485,0.31611831698829485
+Combined moderate,Representative,disparity_cv,0.6806599390727389,0.6806599390727389
+Combined moderate,Representative,final_backlog,55636.0,55636.0
+Combined severe,FIFO,p95,177.0,177.0
+Combined severe,FIFO,mean_backlog,36857.030054644805,36857.030054644805
+Combined severe,FIFO,long_wait_share,0.4625594077837885,0.4625594077837885
+Combined severe,FIFO,disparity_cv,0.5133342596264171,0.5133342596264171
+Combined severe,FIFO,final_backlog,73610.0,73610.0
+Combined severe,Representative,p95,162.0,162.0
+Combined severe,Representative,mean_backlog,36857.030054644805,36857.030054644805
+Combined severe,Representative,long_wait_share,0.4258160129072764,0.4258160129072764
+Combined severe,Representative,disparity_cv,0.5958644699097811,0.5958644699097811
+Combined severe,Representative,final_backlog,73610.0,73610.0

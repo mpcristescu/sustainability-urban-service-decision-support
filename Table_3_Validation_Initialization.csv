@@ -1,0 +1,5 @@
+configuration,initial_backlog,initial_backlog_closed,mean_backlog,final_backlog
+Exact original empty-queue replay,0,0,11405.156164383561,23089
+One-year backlog initialization,20339,17448,29252.369863013697,40377
+Full observable backlog initialization,51645,34449,58411.28493150685,68221
+Observed accounting backlog,51645,,not_applicable,68221

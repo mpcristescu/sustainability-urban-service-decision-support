@@ -1,0 +1,3 @@
+dataset,local_filename,official_source,analysis_scope,redistribution
+FixMyStreet Brussels,fims.csv,https://data.mobility.brussels/en/info/fims/,2019-2024 primary study window,Not redistributed
+NYC 311 selected agencies,311_Service_Requests_from_2020_to_Present.csv,https://data.cityofnewyork.us/d/erm2-nwe9,2023 development and 2025 temporal holdout,Not redistributed

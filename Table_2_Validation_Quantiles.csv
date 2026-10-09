@@ -1,0 +1,7 @@
+population,n,p50_days,p90_days,p95_days
+Observed closure-year cohort,59468,7,264,526
+Observed 2023 creation cohort closed by cutoff,61711,8,423,562
+Observed 2023 creation cohort closed by year end,49086,5,74,115
+Exact original empty-queue replay,52955,32,74,99
+One-year backlog initialization,56006,125,294,344
+Full observable backlog initialization,59468,293,1309,1587

@@ -1,0 +1,71 @@
+{
+  "definitions": {
+    "closure_year": "Requests administratively closed during 2023, regardless of creation date.",
+    "creation_cohort_closed_by_cutoff": "Requests created during 2023 and administratively closed by the 24 September 2026 cutoff.",
+    "creation_cohort_closed_by_year_end": "Requests created and administratively closed during 2023.",
+    "simulator_as_implemented": "FIFO replay with 2023 arrivals only and an empty queue on 1 January 2023.",
+    "simulator_exact_original": "FIFO replay receiving only records created from 2022 onward, using closure opportunities from that restricted set, and starting with an empty queue on 1 January 2023.",
+    "simulator_one_year_warmup": "FIFO replay receiving records created from 2022 onward, initialized with the subset still open on 1 January 2023.",
+    "simulator_with_initial_backlog": "FIFO replay initialized with requests created before 2023 that were still open on 1 January 2023."
+  },
+  "observed_closure_year": {
+    "n": 59468,
+    "p50": 7.0,
+    "p90": 264.0,
+    "p95": 526.0
+  },
+  "observed_creation_cohort_closed_by_cutoff": {
+    "n": 61711,
+    "p50": 8.0,
+    "p90": 423.0,
+    "p95": 562.0
+  },
+  "observed_creation_cohort_closed_by_year_end": {
+    "n": 49086,
+    "p50": 5.0,
+    "p90": 74.0,
+    "p95": 115.0
+  },
+  "observed_initial_backlog": 51645,
+  "observed_end_backlog": 68221,
+  "simulator_as_implemented": {
+    "n": 54665,
+    "p50": 31.0,
+    "p90": 73.0,
+    "p95": 97.0,
+    "initial_backlog": 0,
+    "initial_backlog_closed": 0,
+    "mean_backlog": 10722.950684931508,
+    "final_backlog": 21379
+  },
+  "simulator_exact_original": {
+    "n": 52955,
+    "p50": 32.0,
+    "p90": 74.0,
+    "p95": 99.0,
+    "initial_backlog": 0,
+    "initial_backlog_closed": 0,
+    "mean_backlog": 11405.156164383561,
+    "final_backlog": 23089
+  },
+  "simulator_one_year_warmup": {
+    "n": 56006,
+    "p50": 125.0,
+    "p90": 294.0,
+    "p95": 344.0,
+    "initial_backlog": 20339,
+    "initial_backlog_closed": 17448,
+    "mean_backlog": 29252.369863013697,
+    "final_backlog": 40377
+  },
+  "simulator_with_initial_backlog": {
+    "n": 59468,
+    "p50": 293.0,
+    "p90": 1309.0,
+    "p95": 1587.0,
+    "initial_backlog": 51645,
+    "initial_backlog_closed": 34449,
+    "mean_backlog": 58411.28493150685,
+    "final_backlog": 68221
+  }
+}
