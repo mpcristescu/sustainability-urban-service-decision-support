@@ -1,0 +1,28 @@
+scenarios:
+  - name: Reference
+    demand_scale: 1.0
+    capacity_scale: 1.0
+  - name: Demand +10%
+    demand_scale: 1.1
+    capacity_scale: 1.0
+  - name: Demand +20%
+    demand_scale: 1.2
+    capacity_scale: 1.0
+  - name: Demand +30%
+    demand_scale: 1.3
+    capacity_scale: 1.0
+  - name: Capacity -10%
+    demand_scale: 1.0
+    capacity_scale: 0.9
+  - name: Capacity -20%
+    demand_scale: 1.0
+    capacity_scale: 0.8
+  - name: Capacity -30%
+    demand_scale: 1.0
+    capacity_scale: 0.7
+  - name: Combined moderate
+    demand_scale: 1.2
+    capacity_scale: 0.9
+  - name: Combined severe
+    demand_scale: 1.3
+    capacity_scale: 0.8

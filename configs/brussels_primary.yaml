@@ -1,0 +1,7 @@
+dataset: FixMyStreet Brussels
+development_window: [2019-01-01, 2022-12-31]
+validation_window: [2023-01-01, 2023-12-31]
+holdout_window: [2024-01-01, 2024-12-31]
+group_eligibility_minimum: 250
+capacity_definition: observed department-level closure opportunities
+simulator_gate: required before interpreting policy comparisons

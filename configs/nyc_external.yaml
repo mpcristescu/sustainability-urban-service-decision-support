@@ -1,0 +1,5 @@
+dataset: NYC 311 selected agencies
+agencies: [DOT, DEP, DPR, DSNY]
+development_window: [2023-01-01, 2023-12-31]
+holdout_window: [2025-01-01, 2025-12-31]
+validation_window: null
