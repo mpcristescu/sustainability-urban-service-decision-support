@@ -1,0 +1,10 @@
+{
+  "selected_agency_rows": 862,
+  "agency_problem_pairs": 83,
+  "pairs_with_multiple_sla_values": 44,
+  "pairs_with_single_sla_value": 39,
+  "matched_primary_requests": 1756569,
+  "single_value_primary_requests": 558576,
+  "total_primary_current_requests": 2481750,
+  "statement": "SLA is not used as a historical closure deadline: detailed matching fields and historical validity are not established."
+}

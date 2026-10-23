@@ -1,0 +1,44 @@
+dept,status,ambiguous,event,n
+DEP,Assigned,False,False,822
+DEP,Assigned,False,True,1
+DEP,Closed,False,True,557030
+DEP,Closed,True,False,1
+DEP,In Progress,False,False,56
+DEP,In Progress,False,True,19
+DEP,Open,False,False,6484
+DEP,Pending,False,False,411
+DEP,Started,False,False,8892
+DEP,Started,False,True,65
+DOT,Assigned,False,False,3765
+DOT,Assigned,False,True,1104
+DOT,Cancel,False,False,1
+DOT,Closed,False,True,601508
+DOT,Closed,True,False,4044
+DOT,Draft,False,False,3
+DOT,In Progress,False,False,49
+DOT,Open,False,False,819
+DOT,Pending,False,False,302148
+DOT,Pending,False,True,19
+DOT,Unassigned,False,False,10
+DOT,Unspecified,False,False,52
+DPR,Assigned,False,False,92059
+DPR,Closed,False,True,434576
+DPR,Closed,True,False,3
+DPR,Closed - Testing,False,False,2
+DPR,Draft,False,False,2
+DPR,In Progress,False,False,94296
+DPR,In Progress,False,True,7
+DPR,Open,False,False,72811
+DPR,Unassigned,False,False,3
+DPR,Unspecified,False,False,21
+DPR,Unspecified,False,True,51
+DSNY,Assigned,False,False,2322
+DSNY,Closed,False,False,10
+DSNY,Closed,False,True,963188
+DSNY,Closed,True,False,704
+DSNY,In Progress,False,False,8958
+DSNY,Open,False,False,22417
+DSNY,Open,False,True,2
+DSNY,Pending,False,False,728
+DSNY,Unspecified,False,False,2
+DSNY,Unspecified,False,True,1325

@@ -1,0 +1,37 @@
+{
+  "fields": [
+    "dept",
+    "category",
+    "created",
+    "closed",
+    "event",
+    "ambiguous",
+    "duration",
+    "status",
+    "count"
+  ],
+  "files": [
+    {
+      "file": "brussels_cohort_cells.csv.gz",
+      "cohort_cells": 292481,
+      "expanded_records": 618694,
+      "sha256": "81e551e7a04a7f433d37b21be44705155ee08cc8a1a21d6d59c2bfef478c26fb",
+      "bytes": 1760868,
+      "contains_request_identifiers": false,
+      "contains_addresses": false,
+      "contains_narratives": false
+    },
+    {
+      "file": "nyc_cohort_cells.csv.gz",
+      "cohort_cells": 598829,
+      "expanded_records": 3180790,
+      "sha256": "890211caa4f2fe6e467b5ce5e337661555a7b1f022818f19e3738f32be547f4e",
+      "bytes": 3282478,
+      "contains_request_identifiers": false,
+      "contains_addresses": false,
+      "contains_narratives": false
+    }
+  ],
+  "source": "Frozen canonical public administrative snapshots",
+  "exact_expansion_verified": true
+}

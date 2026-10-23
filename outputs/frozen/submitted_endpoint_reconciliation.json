@@ -1,0 +1,14 @@
+{
+  "closure_year_records": 59468,
+  "nonclosed_status_with_recorded_closure": 44,
+  "recorded_timestamp_quantiles": {
+    "p50": 7.0,
+    "p90": 261.0,
+    "p95": 521.0
+  },
+  "submitted_hybrid_quantiles": {
+    "p50": 7.0,
+    "p90": 264.0,
+    "p95": 526.0
+  }
+}

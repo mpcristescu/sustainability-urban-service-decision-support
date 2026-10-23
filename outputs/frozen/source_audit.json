@@ -1,0 +1,141 @@
+{
+  "brussels": {
+    "source": "FixMyStreet Brussels",
+    "input_unique_rows": 618694,
+    "invalid_creation": 0,
+    "negative_closure": 0,
+    "same_day_negative_timestamp": 0,
+    "missing_closure": 119275,
+    "closed_status_missing_or_invalid_date": 3187,
+    "closure_timestamp_nonclosed_status": 521,
+    "closure_after_cutoff": 0,
+    "snapshot_cutoff": "2026-09-24",
+    "status_counts": {
+      "CLOSED": 502085,
+      "PROCESSING": 73688,
+      "CREATED": 42915,
+      "DISMISSED": 6
+    },
+    "primary_rows": 615507,
+    "raw_rows": 619617,
+    "duplicate_identifier_rows": 1818,
+    "raw_sha256": "4fc70733a9127bfe2cb658dd18e88b3f78c9f37c82984892bab20941df28a75c"
+  },
+  "nyc": {
+    "source": "NYC 311 current and historical official extracts",
+    "input_unique_rows": 3180790,
+    "invalid_creation": 0,
+    "negative_closure": 275411,
+    "same_day_negative_timestamp": 3543,
+    "missing_closure": 346474,
+    "closed_status_missing_or_invalid_date": 4752,
+    "closure_timestamp_nonclosed_status": 2593,
+    "closure_after_cutoff": 10,
+    "snapshot_cutoff": "2026-10-20",
+    "status_counts": {
+      "Closed": 2561064,
+      "Pending": 303306,
+      "In Progress": 103385,
+      "Open": 102533,
+      "Assigned": 100073,
+      "Started": 8957,
+      "Unspecified": 1451,
+      "Unassigned": 13,
+      "Draft": 5,
+      "Closed - Testing": 2,
+      "Cancel": 1
+    },
+    "primary_rows": 3176038,
+    "download_rows": 3180790,
+    "duplicate_identifier_rows": 0,
+    "source_files": [
+      {
+        "name": "nyc_2023_DEP.csv",
+        "sha256": "15886668014a546ad04c547bb4525fdf9f7b51bc745df40d75e0377b8196cf15",
+        "bytes": 16990912
+      },
+      {
+        "name": "nyc_2023_DOT.csv",
+        "sha256": "903dcd30dec2d800b5d00d2cebd4f889c8787e9fba0c963ba0cd902805cd45c8",
+        "bytes": 21459731
+      },
+      {
+        "name": "nyc_2023_DPR.csv",
+        "sha256": "38e184df60aa9c58c3a1a8799391a1004c5aa3f09513d1bcb576b3a19500571b",
+        "bytes": 13878425
+      },
+      {
+        "name": "nyc_2023_DSNY.csv",
+        "sha256": "8c6a2b72a140337260e34a6991e487152ddf28109a0279035c0d74a4675528c6",
+        "bytes": 33151156
+      },
+      {
+        "name": "nyc_2024_DEP.csv",
+        "sha256": "1f869cd9607800dfe6fc4e79e0a30fd58a32d534d87b640f3cd29ed972fb6573",
+        "bytes": 19042362
+      },
+      {
+        "name": "nyc_2024_DOT.csv",
+        "sha256": "dd24dc34a4773e8eff46d3a267fccd7a12f7aa135c406f2d4ff80775a1784738",
+        "bytes": 22575549
+      },
+      {
+        "name": "nyc_2024_DPR.csv",
+        "sha256": "542bab9172bcd7576ea1dde9633b0e8e904fa7a4ba90f3a4b55b2f6f76a96b61",
+        "bytes": 15021961
+      },
+      {
+        "name": "nyc_2024_DSNY.csv",
+        "sha256": "d7ab2e23379b7c276c403c361512f1767ff8baf2cda17d06d26d5d223f66b796",
+        "bytes": 33265275
+      },
+      {
+        "name": "nyc_2025_DEP.csv",
+        "sha256": "b91d11af6fe1af24d29660eb74d928fb70ecca871b43b9755bdbca3380787e36",
+        "bytes": 19656290
+      },
+      {
+        "name": "nyc_2025_DOT.csv",
+        "sha256": "ad9d30cd0dcf0acc6a66fafe70fcf4edb27c0fbe204e353cc1c8945049d76281",
+        "bytes": 23409819
+      },
+      {
+        "name": "nyc_2025_DPR.csv",
+        "sha256": "13da3dec1a5274b9ef37a0a2d51ee468279e6f7f311513f0d18d3bf19b1067d2",
+        "bytes": 11982157
+      },
+      {
+        "name": "nyc_2025_DSNY.csv",
+        "sha256": "ac58c0589dea8c1bdcf7e5ca0418d5971f6468da38e0bca9a5735c5075ce68f2",
+        "bytes": 35502743
+      },
+      {
+        "name": "nyc_inherited_76ig-c548.csv",
+        "sha256": "543fc2244972e04b5a897a8a33c2e27b262731ed7c8e45f6052f2ef1b853ecfa",
+        "bytes": 22520096
+      },
+      {
+        "name": "nyc_inherited_erm2-nwe9.csv",
+        "sha256": "1aad09e4928e4791ac4a68c04f9f39f5c8747a5073654e406e11c6cfa48297cb",
+        "bytes": 17202555
+      },
+      {
+        "name": "nyc_inherited_invalid_76ig-c548.csv",
+        "sha256": "fea64eb514a6dcdb1dbf19b8077c36b82a4445a59f4191f585fee6385f8a5a8b",
+        "bytes": 26210990
+      },
+      {
+        "name": "nyc_inherited_invalid_erm2-nwe9.csv",
+        "sha256": "e670ce0fc16e117d1dc7c3a72fbe892aa3bc0612c4fc6a8729da5f34badaa9dd",
+        "bytes": 4456400
+      }
+    ],
+    "creation_year_counts": {
+      "2023": 794044,
+      "2024": 841039,
+      "2025": 846881
+    }
+  },
+  "protocol_sha256": "8a2f5c551656921b9f8cab035747b5bf8f65524780d8aa7880c76fd13e303c7b",
+  "run_started_utc": "2026-10-20T09:30:14.458938+00:00"
+}

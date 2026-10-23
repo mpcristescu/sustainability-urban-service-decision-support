@@ -1,0 +1,476 @@
+[
+  {
+    "file": "Brussels_development_candidates.csv",
+    "rows": 36,
+    "columns": 22,
+    "matched": true
+  },
+  {
+    "file": "brussels_status_audit.csv",
+    "rows": 539,
+    "columns": 5,
+    "matched": true
+  },
+  {
+    "file": "brussels_year_department_lifecycles.csv",
+    "rows": 773,
+    "columns": 5,
+    "matched": true
+  },
+  {
+    "file": "department_pairwise_logrank.csv",
+    "rows": 990,
+    "columns": 8,
+    "matched": true
+  },
+  {
+    "file": "department_reference_block_contrasts.csv",
+    "rows": 44,
+    "columns": 12,
+    "matched": true
+  },
+  {
+    "file": "department_service_mix_standardized.csv",
+    "rows": 933,
+    "columns": 13,
+    "matched": true
+  },
+  {
+    "file": "endpoint_coding_sensitivity.csv",
+    "rows": 6,
+    "columns": 7,
+    "matched": true
+  },
+  {
+    "file": "grouping_initialization_sensitivity.csv",
+    "rows": 24,
+    "columns": 20,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_100.csv",
+    "rows": 554,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_104.csv",
+    "rows": 1397,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_105.csv",
+    "rows": 1201,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_116.csv",
+    "rows": 1223,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_118.csv",
+    "rows": 608,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_119.csv",
+    "rows": 729,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_12.csv",
+    "rows": 691,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_122.csv",
+    "rows": 1168,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_129.csv",
+    "rows": 762,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_13.csv",
+    "rows": 571,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_135.csv",
+    "rows": 749,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_136.csv",
+    "rows": 720,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_15.csv",
+    "rows": 746,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_153.csv",
+    "rows": 2565,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_169.csv",
+    "rows": 1020,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_171.csv",
+    "rows": 663,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_187.csv",
+    "rows": 1143,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_197.csv",
+    "rows": 1628,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_202.csv",
+    "rows": 578,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_223.csv",
+    "rows": 988,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_226.csv",
+    "rows": 979,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_234.csv",
+    "rows": 744,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_251.csv",
+    "rows": 918,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_272.csv",
+    "rows": 237,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_314.csv",
+    "rows": 577,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_315.csv",
+    "rows": 721,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_33.csv",
+    "rows": 362,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_34.csv",
+    "rows": 1033,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_385.csv",
+    "rows": 610,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_396.csv",
+    "rows": 616,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_397.csv",
+    "rows": 1049,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_4.csv",
+    "rows": 1624,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_46.csv",
+    "rows": 965,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_67.csv",
+    "rows": 753,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_68.csv",
+    "rows": 835,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_70.csv",
+    "rows": 241,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_71.csv",
+    "rows": 780,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_74.csv",
+    "rows": 2119,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_8.csv",
+    "rows": 868,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_82.csv",
+    "rows": 1923,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_89.csv",
+    "rows": 427,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_94.csv",
+    "rows": 1915,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_95.csv",
+    "rows": 678,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_96.csv",
+    "rows": 1158,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_97.csv",
+    "rows": 847,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_Brussels_ALL.csv",
+    "rows": 2820,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_NYC_ALL.csv",
+    "rows": 1389,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_NYC_DEP.csv",
+    "rows": 1346,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_NYC_DOT.csv",
+    "rows": 1378,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_NYC_DPR.csv",
+    "rows": 1389,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "km_NYC_DSNY.csv",
+    "rows": 1344,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "lifecycle_by_department.csv",
+    "rows": 174,
+    "columns": 20,
+    "matched": true
+  },
+  {
+    "file": "lifecycle_by_department_named.csv",
+    "rows": 174,
+    "columns": 21,
+    "matched": true
+  },
+  {
+    "file": "maturity_threshold_sensitivity.csv",
+    "rows": 30,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "NYC_development_candidates.csv",
+    "rows": 36,
+    "columns": 22,
+    "matched": true
+  },
+  {
+    "file": "nyc_status_audit.csv",
+    "rows": 43,
+    "columns": 5,
+    "matched": true
+  },
+  {
+    "file": "observed_Brussels_2023_matched_cohort.csv",
+    "rows": 122,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "observed_Brussels_2024_matched_cohort.csv",
+    "rows": 135,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "observed_Brussels_2025_matched_cohort.csv",
+    "rows": 138,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "observed_mature_creation_cohorts.csv",
+    "rows": 6,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "observed_NYC_2024_matched_cohort.csv",
+    "rows": 4,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "observed_NYC_2025_matched_cohort.csv",
+    "rows": 4,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "paired_stress_realizations.csv",
+    "rows": 244,
+    "columns": 21,
+    "matched": true
+  },
+  {
+    "file": "policy_paired_bootstrap_intervals.csv",
+    "rows": 27,
+    "columns": 9,
+    "matched": true
+  },
+  {
+    "file": "stress_paired_summary.csv",
+    "rows": 30,
+    "columns": 13,
+    "matched": true
+  },
+  {
+    "file": "temporal_policy_evaluation.csv",
+    "rows": 10,
+    "columns": 18,
+    "matched": true
+  },
+  {
+    "file": "validation_controlled_ablation.csv",
+    "rows": 5,
+    "columns": 29,
+    "matched": true
+  },
+  {
+    "file": "validation_department_errors.csv",
+    "rows": 319,
+    "columns": 10,
+    "matched": true
+  },
+  {
+    "file": "validation_observed_cohort_km.csv",
+    "rows": 365,
+    "columns": 6,
+    "matched": true
+  },
+  {
+    "file": "validation_retrospective_bands.csv",
+    "rows": 15,
+    "columns": 7,
+    "matched": true
+  },
+  {
+    "file": "validation_simulated_cohort_km.csv",
+    "rows": 365,
+    "columns": 6,
+    "matched": true
+  }
+]

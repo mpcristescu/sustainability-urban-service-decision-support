@@ -1,0 +1,36 @@
+{
+  "Brussels": {
+    "weights": [
+      0.2870914702090573,
+      0.013597756315900888,
+      0.1943354789369295,
+      0.5049752945381124
+    ],
+    "selected_label": "Candidate 15",
+    "selection_start": "2023-01-01",
+    "selection_end": "2023-12-31",
+    "common_development_groups": 68,
+    "candidate_count": 36,
+    "search_seconds": 1.4676930904388428,
+    "group_threshold": 250,
+    "development_requests": 180309,
+    "pooled_development_requests": 18313
+  },
+  "NYC": {
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "selected_label": "Queue pressure",
+    "selection_start": "2024-01-01",
+    "selection_end": "2024-12-31",
+    "common_development_groups": 17,
+    "candidate_count": 36,
+    "search_seconds": 8.032031536102295,
+    "group_threshold": 3000,
+    "development_requests": 793896,
+    "pooled_development_requests": 20633
+  }
+}

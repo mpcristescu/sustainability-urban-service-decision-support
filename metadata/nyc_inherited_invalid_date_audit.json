@@ -1,0 +1,216 @@
+{
+  "where": "agency in ('DOT','DEP','DPR','DSNY') AND created_date < '2023-01-01T00:00:00' AND closed_date < created_date",
+  "before": {
+    "erm2-nwe9": [
+      {
+        "agency": "DEP",
+        "status": "Pending",
+        "n": "213"
+      },
+      {
+        "agency": "DOT",
+        "status": "Closed",
+        "n": "97"
+      },
+      {
+        "agency": "DOT",
+        "status": "Pending",
+        "n": "39302"
+      },
+      {
+        "agency": "DPR",
+        "status": "Closed",
+        "n": "3"
+      },
+      {
+        "agency": "DPR",
+        "status": "In Progress",
+        "n": "34"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Assigned",
+        "n": "1"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Open",
+        "n": "12"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Pending",
+        "n": "8"
+      }
+    ],
+    "76ig-c548": [
+      {
+        "agency": "DEP",
+        "status": "Pending",
+        "n": "176"
+      },
+      {
+        "agency": "DOT",
+        "status": "Closed",
+        "n": "3395"
+      },
+      {
+        "agency": "DOT",
+        "status": "Pending",
+        "n": "225178"
+      },
+      {
+        "agency": "DPR",
+        "status": "Assigned",
+        "n": "334"
+      },
+      {
+        "agency": "DPR",
+        "status": "In Progress",
+        "n": "1"
+      },
+      {
+        "agency": "DPR",
+        "status": "Open",
+        "n": "154"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Closed",
+        "n": "19"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Open",
+        "n": "148"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Pending",
+        "n": "713"
+      }
+    ]
+  },
+  "after": {
+    "erm2-nwe9": [
+      {
+        "agency": "DEP",
+        "status": "Pending",
+        "n": "213"
+      },
+      {
+        "agency": "DOT",
+        "status": "Closed",
+        "n": "97"
+      },
+      {
+        "agency": "DOT",
+        "status": "Pending",
+        "n": "39302"
+      },
+      {
+        "agency": "DPR",
+        "status": "Closed",
+        "n": "3"
+      },
+      {
+        "agency": "DPR",
+        "status": "In Progress",
+        "n": "34"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Assigned",
+        "n": "1"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Open",
+        "n": "12"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Pending",
+        "n": "8"
+      }
+    ],
+    "76ig-c548": [
+      {
+        "agency": "DEP",
+        "status": "Pending",
+        "n": "176"
+      },
+      {
+        "agency": "DOT",
+        "status": "Closed",
+        "n": "3395"
+      },
+      {
+        "agency": "DOT",
+        "status": "Pending",
+        "n": "225178"
+      },
+      {
+        "agency": "DPR",
+        "status": "Assigned",
+        "n": "334"
+      },
+      {
+        "agency": "DPR",
+        "status": "In Progress",
+        "n": "1"
+      },
+      {
+        "agency": "DPR",
+        "status": "Open",
+        "n": "154"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Closed",
+        "n": "19"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Open",
+        "n": "148"
+      },
+      {
+        "agency": "DSNY",
+        "status": "Pending",
+        "n": "713"
+      }
+    ]
+  },
+  "counts_verified": true,
+  "fields": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "complaint_type",
+    "status",
+    "borough"
+  ],
+  "files": [
+    {
+      "dataset": "erm2-nwe9",
+      "label": "inherited_invalid_erm2-nwe9",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+      "rows": 39670,
+      "sha256": "e670ce0fc16e117d1dc7c3a72fbe892aa3bc0612c4fc6a8729da5f34badaa9dd",
+      "bytes": 4456400,
+      "retrieved_at_utc": "2026-10-20T09:23:39.392892+00:00"
+    },
+    {
+      "dataset": "76ig-c548",
+      "label": "inherited_invalid_76ig-c548",
+      "url": "https://data.cityofnewyork.us/resource/76ig-c548.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+      "rows": 230118,
+      "sha256": "fea64eb514a6dcdb1dbf19b8077c36b82a4445a59f4191f585fee6385f8a5a8b",
+      "bytes": 26210990,
+      "retrieved_at_utc": "2026-10-20T09:25:53.351925+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-20T09:26:16.482549+00:00"
+}

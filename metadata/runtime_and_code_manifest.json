@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "pandas": "3.0.1",
+  "analysis_protocol": "8a2f5c551656921b9f8cab035747b5bf8f65524780d8aa7880c76fd13e303c7b",
+  "core_code_sha256": "6c2ace9926c4bd4d3c50e6cea9c7860b4f93c7de9687c482396bf6ab82ac215c",
+  "main_code_sha256": "ceda7d9aeb1316e090374aa39c167e47488f86a5cdc289dcc405236b2bfbbe26"
+}

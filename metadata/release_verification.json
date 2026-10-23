@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-20T09:48:39.868307+00:00",
+  "scientific_tests": 13,
+  "scientific_tests_passed": true,
+  "offline_tables_compared": 79,
+  "all_tables_matched": true,
+  "reference_tables": [
+    {
+      "file": "Brussels_development_candidates.csv",
+      "sha256": "8dd651616f3e3d5a3dcf9b698106aa63877d07e9b00ade6639936152179af3ac"
+    },
+    {
+      "file": "brussels_status_audit.csv",
+      "sha256": "a5e19dd56d0432025780ed495d70363844093707b8474a64a994f196d29d29bd"
+    },
+    {
+      "file": "brussels_year_department_lifecycles.csv",
+      "sha256": "1e0fae42bc6020062ac1cfa0c95d2bb3738400bb0e5d0610e6da2f13d4f47078"
+    },
+    {
+      "file": "department_pairwise_logrank.csv",
+      "sha256": "cafee7582d1b7fd8f88e2554ee2475d78663d0083973c08112390daa735e0c6f"
+    },
+    {
+      "file": "department_reference_block_contrasts.csv",
+      "sha256": "1202fe44e7f064502715d1b2f96cd28651e5eaf17036bbe219f2a41bdcca8678"
+    },
+    {
+      "file": "department_service_mix_standardized.csv",
+      "sha256": "57470588cbc5ae88baf13d2d17666eead8f68fcddd7161ab13b8288a68e252e2"
+    },
+    {
+      "file": "endpoint_coding_sensitivity.csv",
+      "sha256": "e67ffdc0add7274abbff921785e64d4c32890e381c1cd62d3c724a4a6f71b905"
+    },
+    {
+      "file": "grouping_initialization_sensitivity.csv",
+      "sha256": "0ded32e3dc569917a2d04651db39eae2ad00e9dac3980c22fb52729a9fdf6ff4"
+    },
+    {
+      "file": "km_Brussels_100.csv",
+      "sha256": "94bfde011a78216c96e263b30ab281f576365b611f61459cf85c99f5a4fea810"
+    },
+    {
+      "file": "km_Brussels_104.csv",
+      "sha256": "ca7d41ce6a761a89de760456f6715c2a8d25b1b882b4f1db58bce013d28d7546"
+    },
+    {
+      "file": "km_Brussels_105.csv",
+      "sha256": "1436f458f15169276794e237e6f64aa784dacd559d895cd14cdb94c719e51ce8"
+    },
+    {
+      "file": "km_Brussels_116.csv",
+      "sha256": "40331f75ae8cf013427a2bcf44cd62529b3b942f2604a8a379c2a6b52b5653d3"
+    },
+    {
+      "file": "km_Brussels_118.csv",
+      "sha256": "a2c5c4ef862593d54a5e7d240e121557d33a68c986cdf8c9d256b144f20fea7a"
+    },
+    {
+      "file": "km_Brussels_119.csv",
+      "sha256": "ef6f8000fbcead5c66c7ace40a589fe6c23a57a44af3741473d7ee73de3b77d1"
+    },
+    {
+      "file": "km_Brussels_12.csv",
+      "sha256": "8397cd0f3a40fe25d2608f70cea70b383da427807d36a6e11c1ee5a853a09cc6"
+    },
+    {
+      "file": "km_Brussels_122.csv",
+      "sha256": "931dff86b54f476f7e8a47689a8ea4e921ea0e38681839eb6241088b60019687"
+    },
+    {
+      "file": "km_Brussels_129.csv",
+      "sha256": "b504931ac0b15e6685ebaed7f2b927beba021e47b15f848a25779a27dda08076"
+    },
+    {
+      "file": "km_Brussels_13.csv",
+      "sha256": "cfcd3cc59a2f2f6e90fb7e1bb744dac542fa0bfcbf102d662c0e927a373cafd9"
+    },
+    {
+      "file": "km_Brussels_135.csv",
+      "sha256": "4fa7d7af1d4a166ef31db677a97d8c123e0c61fa829492dfb31d2839e5d949de"
+    },
+    {
+      "file": "km_Brussels_136.csv",
+      "sha256": "8ecc84386c49f97171ce632f259eb9a1ab061331038c84e438287a28df10a857"
+    },
+    {
+      "file": "km_Brussels_15.csv",
+      "sha256": "c9641fc86e8de7e169b1968b0038b0e3215c3d7292678afc7dabdd013791b586"
+    },
+    {
+      "file": "km_Brussels_153.csv",
+      "sha256": "5d8b84205c1cbe63811e628a170cb5ea60c873c0337cbc37deb8df2fcbae9140"
+    },
+    {
+      "file": "km_Brussels_169.csv",
+      "sha256": "e02c27d00c7a746de1f7925a3d9713eb7a006b4ee771f05b55316836330aebf8"
+    },
+    {
+      "file": "km_Brussels_171.csv",
+      "sha256": "aba6478f048cc59161bd1d7d55c277b74501ba527a8c7394fc523295df166d9c"
+    },
+    {
+      "file": "km_Brussels_187.csv",
+      "sha256": "2cd8e85fd991487d0b46d94b9df5c80531959e86a8c5339699008000ff662a90"
+    },
+    {
+      "file": "km_Brussels_197.csv",
+      "sha256": "3c051222fa32a5e93d341edc83264c6dc0aae82cafafa7a182b4730d120d1d58"
+    },
+    {
+      "file": "km_Brussels_202.csv",
+      "sha256": "ff37df6c584d6ff4ee66a2505c3585a7bec5a3245bb411db5366e2d8e8d39b91"
+    },
+    {
+      "file": "km_Brussels_223.csv",
+      "sha256": "5b3ab20e17681ff3acd8ee04800046a33048c30ce68b596671852376dd299aa7"
+    },
+    {
+      "file": "km_Brussels_226.csv",
+      "sha256": "5b269fe561f4ffc5d9eb7508599f19981d118e3ce8a845be4142bff495fed403"
+    },
+    {
+      "file": "km_Brussels_234.csv",
+      "sha256": "075c0a4951d48f57ffb0d07d3ba964b78ded267eaa9c567fbc31298922c94947"
+    },
+    {
+      "file": "km_Brussels_251.csv",
+      "sha256": "0b914acc0347c11a56999c8098cfcb620e8df6d7131665bfa2c3000d776b95fc"
+    },
+    {
+      "file": "km_Brussels_272.csv",
+      "sha256": "8d168e4140c7abe157c9b8e0f5c23fa957f51550719c8fd32ece4dac88bd7d46"
+    },
+    {
+      "file": "km_Brussels_314.csv",
+      "sha256": "b3252f4fd4471d2481caa432d4c88191a6f3d802921e17abc9f164800f4008c5"
+    },
+    {
+      "file": "km_Brussels_315.csv",
+      "sha256": "44e8d43056a924295d3b495fb81b8824d813f898f70daf0189416afa81755725"
+    },
+    {
+      "file": "km_Brussels_33.csv",
+      "sha256": "f96c92c70ca923b8d6c9fd99179f574765cef77346900ca275ef3940cd191b81"
+    },
+    {
+      "file": "km_Brussels_34.csv",
+      "sha256": "3499d0501d0fff1bfed6cad192dcedd9b08e16f9afb1e999f80e67f028716c05"
+    },
+    {
+      "file": "km_Brussels_385.csv",
+      "sha256": "27a368b52787f338bdee9ec68ae91e4b70942796e4b040d36b5c9959f5f97ee5"
+    },
+    {
+      "file": "km_Brussels_396.csv",
+      "sha256": "ef5a4bab0f54ccb5ca925d95dc253b3167e10050dd7530f2391d0d6c70132fa7"
+    },
+    {
+      "file": "km_Brussels_397.csv",
+      "sha256": "7a19e66fcf58a2e7350a5cf3a02f403b1f83e26db0dc140065883076c7222516"
+    },
+    {
+      "file": "km_Brussels_4.csv",
+      "sha256": "cde1cd1ed9c29b5011527608e6c1584ce82b335b3bbe7aa3a9a89ac9cb89941e"
+    },
+    {
+      "file": "km_Brussels_46.csv",
+      "sha256": "35bd5a449feea50927174c9cf829e2870b7f257b6294d1af387fd3629fc30f45"
+    },
+    {
+      "file": "km_Brussels_67.csv",
+      "sha256": "dfaf993554fe72b17e02a0444ecb01d598361a864fd34be399f9aceec906a4af"
+    },
+    {
+      "file": "km_Brussels_68.csv",
+      "sha256": "9aa3fe740a0d262b033ba3ab6ca9c804c40de21f3bcc2c4b7deffa7593fa7de7"
+    },
+    {
+      "file": "km_Brussels_70.csv",
+      "sha256": "5d6ea11e1afa3aa95ec3145cc1b03547219d615342c33aba2f29b92f797c6b4a"
+    },
+    {
+      "file": "km_Brussels_71.csv",
+      "sha256": "f0c6766e25a083c11fa6e3b1c6eadc58b931178cf19b79d486a91fed37b1b58e"
+    },
+    {
+      "file": "km_Brussels_74.csv",
+      "sha256": "c8fd4273d25022cf401665be5d690c4755886a81b6bcad4c2f0349314bcb831d"
+    },
+    {
+      "file": "km_Brussels_8.csv",
+      "sha256": "90d19321634e5e815eb12450cd683e96f6ecfca5bd4074723f820036e616880d"
+    },
+    {
+      "file": "km_Brussels_82.csv",
+      "sha256": "432592dc9aa825f1ac1a946f85982ca1fac2a3466681bd70a08c9ffb55858365"
+    },
+    {
+      "file": "km_Brussels_89.csv",
+      "sha256": "6ea27af0a83759c41c5a016cf4e8f47b5c8973c62023809cf3354602db0fb190"
+    },
+    {
+      "file": "km_Brussels_94.csv",
+      "sha256": "d0b2ae32ff10a4305bf4479bfadb3a32d2f2f8fd634c833f46f2d843b4a9cb0b"
+    },
+    {
+      "file": "km_Brussels_95.csv",
+      "sha256": "4b2ab4d42d7b32f73f20af3f0dd173c97cb758d02701e646cb00cc239d9a971c"
+    },
+    {
+      "file": "km_Brussels_96.csv",
+      "sha256": "8c7749048512b17b234cbd62bc62fb9c5711f6d5d0e1a59fb39f22789f74a9ee"
+    },
+    {
+      "file": "km_Brussels_97.csv",
+      "sha256": "deae281da317725142d1a789ec675f729ef2db460eb3b4d150a9f604d19bd243"
+    },
+    {
+      "file": "km_Brussels_ALL.csv",
+      "sha256": "e70c0324f7a4f2fd0ee5ee86ea3bd8ed42f6fbde699480db6a586defd7c0dbd8"
+    },
+    {
+      "file": "km_NYC_ALL.csv",
+      "sha256": "d78e00c44e0bf149af38f18f50545753ca98f1f2171b27acdb50f6fc4d712c74"
+    },
+    {
+      "file": "km_NYC_DEP.csv",
+      "sha256": "a8f96af2e130516643a1d0ead6f3ec7481cf2ab358b22bb33ef1ac380941509e"
+    },
+    {
+      "file": "km_NYC_DOT.csv",
+      "sha256": "2f82bc5416e2e981ff8c38d420ab0318c355de660a488336d656cb70e0871adc"
+    },
+    {
+      "file": "km_NYC_DPR.csv",
+      "sha256": "ed3a589c32c5ca54f97e05b77583b5065d5d2e0e3572b0d897000a0d842d85c2"
+    },
+    {
+      "file": "km_NYC_DSNY.csv",
+      "sha256": "01b024b34937a2343fd8e82fa70a2fc703e0dd84a54c55a19a55f77a3acbb764"
+    },
+    {
+      "file": "lifecycle_by_department.csv",
+      "sha256": "82b4b6f4dbcf95e8d4d8094efdb6fb43c9d39ba14496d42e67ba715ca530a353"
+    },
+    {
+      "file": "lifecycle_by_department_named.csv",
+      "sha256": "4f967219da6d4a82043d9d70ed40bde0c576398ed5501dfda736beae255f482f"
+    },
+    {
+      "file": "maturity_threshold_sensitivity.csv",
+      "sha256": "09f4702da6138213b4674323c9e0eef8cca4e085706136f16091a642707ff341"
+    },
+    {
+      "file": "NYC_development_candidates.csv",
+      "sha256": "9c56b8f335770827274428d78686c038567b261c24e5d26aa9e428f35d9b72d2"
+    },
+    {
+      "file": "nyc_status_audit.csv",
+      "sha256": "578bf84b64ba447542769adb5f1852f0c2a569c88cf7522708ed4fa97d430cb3"
+    },
+    {
+      "file": "observed_Brussels_2023_matched_cohort.csv",
+      "sha256": "926b2a1553882095b0bd689f951ec375a39a25946c5a3ba58e1928a2379c5a31"
+    },
+    {
+      "file": "observed_Brussels_2024_matched_cohort.csv",
+      "sha256": "17d7ee67e4220252beadbd261d1766917ea9303a3affda92d645ced8610a995c"
+    },
+    {
+      "file": "observed_Brussels_2025_matched_cohort.csv",
+      "sha256": "6ca613acdc4b10a46475e4b7c3d827f0a32cd26f86990df7fe95be139e82dd40"
+    },
+    {
+      "file": "observed_mature_creation_cohorts.csv",
+      "sha256": "7d56f8073b8861a91448b09f791ed86f00d653a50ba55d6c22b5969fe9bc2eec"
+    },
+    {
+      "file": "observed_NYC_2024_matched_cohort.csv",
+      "sha256": "a39de84b81b50851d4ad3f97ca0e535b3f6af04691be2e5a5cccf31afa1eaf1d"
+    },
+    {
+      "file": "observed_NYC_2025_matched_cohort.csv",
+      "sha256": "a3b0f54bad7f774a3478aa944e3e32212ddd8f5a0259095a42ca787faa2817cc"
+    },
+    {
+      "file": "paired_stress_realizations.csv",
+      "sha256": "d5349159a6e6140af18a51d6e97c35e831f719dcaaead126e5b9c964b0de693c"
+    },
+    {
+      "file": "policy_paired_bootstrap_intervals.csv",
+      "sha256": "fb68c2d2c1a9ff3314a42055fe85f8424db92052d2ebe7331933b1fe8064e35e"
+    },
+    {
+      "file": "stress_paired_summary.csv",
+      "sha256": "a87ab51e21818013c3ed53ee35d6c8c4e7af09bab378011a99a53f4bd192150c"
+    },
+    {
+      "file": "temporal_policy_evaluation.csv",
+      "sha256": "4a3350bdef46deadfd848cdb2c135ca17f3a2373a494285bb033f2aec3cb876a"
+    },
+    {
+      "file": "validation_controlled_ablation.csv",
+      "sha256": "3b46dfaded6bc8fab3feb3df2a09ec4cc9d03989e20aac0bfe07847bf5ad6542"
+    },
+    {
+      "file": "validation_department_errors.csv",
+      "sha256": "feef7a8ff4b3286ab0dd3a7e991156c22db04794383d5d7dbee6892026cfad81"
+    },
+    {
+      "file": "validation_observed_cohort_km.csv",
+      "sha256": "82d361025e024b71cf19ee50f6b757a622ee921de296c8db6a2c6996e7eb2a58"
+    },
+    {
+      "file": "validation_retrospective_bands.csv",
+      "sha256": "447dc12863011fbda975104637f5316e16c5ea931a55de9f76cf39e5267302be"
+    },
+    {
+      "file": "validation_simulated_cohort_km.csv",
+      "sha256": "637be07bbb3934163beb59e9487d135358b1e587fed46f05eccd3bf6c5abc098"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "started_at_utc": "2026-10-20T07:35:28.607313+00:00",
+  "completed_at_utc": "2026-10-20T09:26:16.482549+00:00",
+  "fields": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "complaint_type",
+    "status",
+    "borough"
+  ],
+  "monthly_counts_verified": true,
+  "archived_dataset": "76ig-c548",
+  "files": [
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2023_DOT",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DOT%27+AND+created_date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 193947,
+      "sha256": "903dcd30dec2d800b5d00d2cebd4f889c8787e9fba0c963ba0cd902805cd45c8",
+      "bytes": 21459731,
+      "retrieved_at_utc": "2026-10-20T07:35:43.619998+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2023_DEP",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DEP%27+AND+created_date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 170274,
+      "sha256": "15886668014a546ad04c547bb4525fdf9f7b51bc745df40d75e0377b8196cf15",
+      "bytes": 16990912,
+      "retrieved_at_utc": "2026-10-20T07:35:50.689988+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2023_DPR",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DPR%27+AND+created_date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 127794,
+      "sha256": "38e184df60aa9c58c3a1a8799391a1004c5aa3f09513d1bcb576b3a19500571b",
+      "bytes": 13878425,
+      "retrieved_at_utc": "2026-10-20T07:35:47.636536+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2023_DSNY",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DSNY%27+AND+created_date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 302029,
+      "sha256": "8c6a2b72a140337260e34a6991e487152ddf28109a0279035c0d74a4675528c6",
+      "bytes": 33151156,
+      "retrieved_at_utc": "2026-10-20T07:36:26.748660+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2024_DOT",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DOT%27+AND+created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272025-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 204806,
+      "sha256": "dd24dc34a4773e8eff46d3a267fccd7a12f7aa135c406f2d4ff80775a1784738",
+      "bytes": 22575549,
+      "retrieved_at_utc": "2026-10-20T07:36:07.780152+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2024_DEP",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DEP%27+AND+created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272025-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 191671,
+      "sha256": "1f869cd9607800dfe6fc4e79e0a30fd58a32d534d87b640f3cd29ed972fb6573",
+      "bytes": 19042362,
+      "retrieved_at_utc": "2026-10-20T07:36:02.640830+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2024_DPR",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DPR%27+AND+created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272025-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 138406,
+      "sha256": "542bab9172bcd7576ea1dde9633b0e8e904fa7a4ba90f3a4b55b2f6f76a96b61",
+      "bytes": 15021961,
+      "retrieved_at_utc": "2026-10-20T07:36:29.866106+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2024_DSNY",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DSNY%27+AND+created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272025-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 306156,
+      "sha256": "d7ab2e23379b7c276c403c361512f1767ff8baf2cda17d06d26d5d223f66b796",
+      "bytes": 33265275,
+      "retrieved_at_utc": "2026-10-20T07:36:54.940416+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2025_DOT",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DOT%27+AND+created_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 212103,
+      "sha256": "ad9d30cd0dcf0acc6a66fafe70fcf4edb27c0fbe204e353cc1c8945049d76281",
+      "bytes": 23409819,
+      "retrieved_at_utc": "2026-10-20T07:36:54.008964+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2025_DEP",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DEP%27+AND+created_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 197143,
+      "sha256": "b91d11af6fe1af24d29660eb74d928fb70ecca871b43b9755bdbca3380787e36",
+      "bytes": 19656290,
+      "retrieved_at_utc": "2026-10-20T07:37:23.164079+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2025_DPR",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DPR%27+AND+created_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 110855,
+      "sha256": "13da3dec1a5274b9ef37a0a2d51ee468279e6f7f311513f0d18d3bf19b1067d2",
+      "bytes": 11982157,
+      "retrieved_at_utc": "2026-10-20T07:37:00.921484+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "2025_DSNY",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency%3D%27DSNY%27+AND+created_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=unique_key&%24limit=2000000",
+      "rows": 326780,
+      "sha256": "ac58c0589dea8c1bdcf7e5ca0418d5971f6468da38e0bca9a5735c5075ce68f2",
+      "bytes": 35502743,
+      "retrieved_at_utc": "2026-10-20T07:37:39.608282+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "inherited_erm2-nwe9",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+%28closed_date+IS+NULL+OR+closed_date+%3E%3D+%272023-01-01T00%3A00%3A00%27%29&%24order=unique_key&%24limit=2000000",
+      "rows": 167358,
+      "sha256": "1aad09e4928e4791ac4a68c04f9f39f5c8747a5073654e406e11c6cfa48297cb",
+      "bytes": 17202555,
+      "retrieved_at_utc": "2026-10-20T07:37:27.713201+00:00"
+    },
+    {
+      "dataset": "76ig-c548",
+      "label": "inherited_76ig-c548",
+      "url": "https://data.cityofnewyork.us/resource/76ig-c548.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+%28closed_date+IS+NULL+OR+closed_date+%3E%3D+%272023-01-01T00%3A00%3A00%27%29&%24order=unique_key&%24limit=2000000",
+      "rows": 261680,
+      "sha256": "543fc2244972e04b5a897a8a33c2e27b262731ed7c8e45f6052f2ef1b853ecfa",
+      "bytes": 22520096,
+      "retrieved_at_utc": "2026-10-20T07:38:02.352228+00:00"
+    },
+    {
+      "dataset": "erm2-nwe9",
+      "label": "inherited_invalid_erm2-nwe9",
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+      "rows": 39670,
+      "sha256": "e670ce0fc16e117d1dc7c3a72fbe892aa3bc0612c4fc6a8729da5f34badaa9dd",
+      "bytes": 4456400,
+      "retrieved_at_utc": "2026-10-20T09:23:39.392892+00:00"
+    },
+    {
+      "dataset": "76ig-c548",
+      "label": "inherited_invalid_76ig-c548",
+      "url": "https://data.cityofnewyork.us/resource/76ig-c548.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+      "rows": 230118,
+      "sha256": "fea64eb514a6dcdb1dbf19b8077c36b82a4445a59f4191f585fee6385f8a5a8b",
+      "bytes": 26210990,
+      "retrieved_at_utc": "2026-10-20T09:25:53.351925+00:00"
+    }
+  ],
+  "current_creation_rows": 2481964,
+  "invalid_date_inherited_extension": {
+    "where": "agency in ('DOT','DEP','DPR','DSNY') AND created_date < '2023-01-01T00:00:00' AND closed_date < created_date",
+    "before": {
+      "erm2-nwe9": [
+        {
+          "agency": "DEP",
+          "status": "Pending",
+          "n": "213"
+        },
+        {
+          "agency": "DOT",
+          "status": "Closed",
+          "n": "97"
+        },
+        {
+          "agency": "DOT",
+          "status": "Pending",
+          "n": "39302"
+        },
+        {
+          "agency": "DPR",
+          "status": "Closed",
+          "n": "3"
+        },
+        {
+          "agency": "DPR",
+          "status": "In Progress",
+          "n": "34"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Assigned",
+          "n": "1"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Open",
+          "n": "12"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Pending",
+          "n": "8"
+        }
+      ],
+      "76ig-c548": [
+        {
+          "agency": "DEP",
+          "status": "Pending",
+          "n": "176"
+        },
+        {
+          "agency": "DOT",
+          "status": "Closed",
+          "n": "3395"
+        },
+        {
+          "agency": "DOT",
+          "status": "Pending",
+          "n": "225178"
+        },
+        {
+          "agency": "DPR",
+          "status": "Assigned",
+          "n": "334"
+        },
+        {
+          "agency": "DPR",
+          "status": "In Progress",
+          "n": "1"
+        },
+        {
+          "agency": "DPR",
+          "status": "Open",
+          "n": "154"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Closed",
+          "n": "19"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Open",
+          "n": "148"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Pending",
+          "n": "713"
+        }
+      ]
+    },
+    "after": {
+      "erm2-nwe9": [
+        {
+          "agency": "DEP",
+          "status": "Pending",
+          "n": "213"
+        },
+        {
+          "agency": "DOT",
+          "status": "Closed",
+          "n": "97"
+        },
+        {
+          "agency": "DOT",
+          "status": "Pending",
+          "n": "39302"
+        },
+        {
+          "agency": "DPR",
+          "status": "Closed",
+          "n": "3"
+        },
+        {
+          "agency": "DPR",
+          "status": "In Progress",
+          "n": "34"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Assigned",
+          "n": "1"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Open",
+          "n": "12"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Pending",
+          "n": "8"
+        }
+      ],
+      "76ig-c548": [
+        {
+          "agency": "DEP",
+          "status": "Pending",
+          "n": "176"
+        },
+        {
+          "agency": "DOT",
+          "status": "Closed",
+          "n": "3395"
+        },
+        {
+          "agency": "DOT",
+          "status": "Pending",
+          "n": "225178"
+        },
+        {
+          "agency": "DPR",
+          "status": "Assigned",
+          "n": "334"
+        },
+        {
+          "agency": "DPR",
+          "status": "In Progress",
+          "n": "1"
+        },
+        {
+          "agency": "DPR",
+          "status": "Open",
+          "n": "154"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Closed",
+          "n": "19"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Open",
+          "n": "148"
+        },
+        {
+          "agency": "DSNY",
+          "status": "Pending",
+          "n": "713"
+        }
+      ]
+    },
+    "counts_verified": true,
+    "fields": [
+      "unique_key",
+      "created_date",
+      "closed_date",
+      "agency",
+      "complaint_type",
+      "status",
+      "borough"
+    ],
+    "files": [
+      {
+        "dataset": "erm2-nwe9",
+        "label": "inherited_invalid_erm2-nwe9",
+        "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+        "rows": 39670,
+        "sha256": "e670ce0fc16e117d1dc7c3a72fbe892aa3bc0612c4fc6a8729da5f34badaa9dd",
+        "bytes": 4456400,
+        "retrieved_at_utc": "2026-10-20T09:23:39.392892+00:00"
+      },
+      {
+        "dataset": "76ig-c548",
+        "label": "inherited_invalid_76ig-c548",
+        "url": "https://data.cityofnewyork.us/resource/76ig-c548.csv?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Ccomplaint_type%2Cstatus%2Cborough&%24where=agency+in+%28%27DOT%27%2C%27DEP%27%2C%27DPR%27%2C%27DSNY%27%29+AND+created_date+%3C+%272023-01-01T00%3A00%3A00%27+AND+closed_date+%3C+created_date&%24order=unique_key&%24limit=2000000",
+        "rows": 230118,
+        "sha256": "fea64eb514a6dcdb1dbf19b8077c36b82a4445a59f4191f585fee6385f8a5a8b",
+        "bytes": 26210990,
+        "retrieved_at_utc": "2026-10-20T09:25:53.351925+00:00"
+      }
+    ],
+    "completed_at_utc": "2026-10-20T09:26:16.482549+00:00"
+  }
+}
