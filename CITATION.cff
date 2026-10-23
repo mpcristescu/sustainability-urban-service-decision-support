@@ -1,19 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this package, please cite the associated article and this software package."
-title: "Validation-Constrained Decision Support for Sustainable Urban Service Systems"
+message: "Please cite this scientific software and the associated manuscript when using these materials."
 type: software
-version: "2.0.0"
-date-released: 2026-10-08
+title: "Urban service lifecycle validation and conditional decision support"
+version: "2026.10.20"
+license: MIT
+date-released: 2026-10-20
 authors:
   - family-names: Cristescu
-    given-names: "Marian Pompiliu"
-    affiliation: "Lucian Blaga University of Sibiu"
+    given-names: Marian Pompiliu
+repository-code: "https://github.com/mpcristescu/sustainability-urban-service-decision-support/"
+url: "https://github.com/mpcristescu/sustainability-urban-service-decision-support/"
+abstract: "Reproducible administrative lifecycle estimates, closure-opportunity diagnostics and conditional priority-rule sensitivity analyses for Brussels and selected NYC 311 agencies."
 keywords:
-  - institutional sustainability
-  - FixMyStreet
-  - NYC 311
-  - queue simulation
-  - right-censoring
-  - model validation
-license: MIT
-repository-code: https://github.com/mpcristescu/systems-urban-service-optimization
+  - municipal services
+  - administrative closure
+  - censoring
+  - simulation validation
+  - conditional decision support

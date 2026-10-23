@@ -1,3 +1,5 @@
-numpy>=1.26,<3
-pandas>=2.2,<3
-Pillow>=10,<13
+numpy==2.5.4
+pandas==3.0.1
+scipy==1.18.1
+numba==0.68.0
+truststore==0.10.5
