@@ -19,9 +19,11 @@ The tested environment is Python 3.12.14 with the exact package versions in requ
 
 The second command runs 13 scientific verification tests, the full analysis, supplementary audits and numerical comparison with all 79 frozen CSV tables. It writes outputs/reproduced/frozen_table_verification.json. This workflow uses the included frozen cohort cells and provider dictionaries. It does not require a live data portal, Word, graphics software or manuscript-production scripts.
 
-The default run expands about 3.53 million records. Several GB of free memory and writable disk space are recommended. Runtime depends on hardware and includes first-run Numba compilation. Do not treat runtime as a scientific result.
+The default run expands 3,799,484 records, approximately 3.80 million. Several GB of free memory and writable disk space are recommended. Runtime depends on hardware and includes first-run Numba compilation. Do not treat runtime as a scientific result.
 
 Optional environment settings are URBAN_SERVICE_OUTPUT_DIR, URBAN_SERVICE_DATA_DIR and NUMBA_CACHE_DIR. URBAN_SERVICE_USE_CACHE=1 reuses a local cache only after a trusted first run. No cache is supplied.
+
+A verification run on 29 October 2026 passed all 13 scientific tests and reproduced all 79 archived CSV tables. The retained raw snapshots also reproduced every released cohort-cell value and multiplicity. A summary is recorded in metadata/final_reproduction_verification_20261029.json.
 
 For individual analysis stages:
 
